@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    height: 90%;
+    border: 2px solid red;
+    display: flex;
+}
+
+.image{
+    width: 70%;
+    height: 100%;
+    border: 2px solid green;
+    background-image: url(oma.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form{
+    width: 30%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.gradient{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(red, black);
+    opacity: 0.4;
+}
+
